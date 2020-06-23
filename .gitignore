@@ -1,5 +1,6 @@
 .idea
 .vscode
+dist/
 dist/*.map
 docs/js/*.map
 dev

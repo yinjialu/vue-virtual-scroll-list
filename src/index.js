@@ -41,6 +41,7 @@ const VirtualList = Vue.component('virtual-list', {
   },
 
   created () {
+    console.log('created')
     this.isHorizontal = this.direction === 'horizontal'
     this.directionKey = this.isHorizontal ? 'scrollLeft' : 'scrollTop'
 
